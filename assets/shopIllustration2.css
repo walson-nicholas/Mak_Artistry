@@ -1,0 +1,20 @@
+.header {
+    background-image: url(/images/mobile-images/shop_illustration_1_header.jpg);
+}
+
+#burger div{
+    background: black;
+}
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    
+    .header::before {
+        background-image: url(/images/mobile-images/shop_card_1_header.jpg);
+    }
+}

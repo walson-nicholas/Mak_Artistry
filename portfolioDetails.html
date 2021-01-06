@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makartistry Portfolio</title>
+    <link rel="stylesheet" href="/assets/mA.css">
+    <link rel="stylesheet" href="/assets/nav.css">
+    <link rel="stylesheet" href="/assetS/portfolio3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+</head>
+
+<body>
+
+    <div class="header">
+        
+        <img id="mobileLogo" src="/images/mobile-images/logo.jpg" alt="logo">
+
+        <div id="burger"  onclick="openSM()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <div id="mySidemenu" class="sidemenu">
+
+            <a href="javascript::void(0)" class="close" onclick="closeSM()">&times;</a>
+
+            <a href="#"><img id="navShopIcon" src="/images/icons/shoppingCart.png" alt="shopCart"></a>
+    
+            <div class="sm-wrapper">
+                
+                <a href="/index.html">
+                    <div>
+                        <i class="fas fa-home"> </i>
+                        <p>Home</p>
+                    </div>
+                </a>
+                
+                
+                <a href="/portfolio.html">
+                    <div>
+                        <i class="fas fa-briefcase"></i>
+                        <p>Portfolio</p>
+                    </div>
+                </a>
+                
+                <a href="/shop.html">
+                    <div>
+                        <i class="fas fa-shopping-basket"></i>
+                        <p>Shop</p>
+                    </div>
+                </a>
+                
+                <a href="/blog.html">
+                    <div>
+                        <i class="fas fa-blog"></i>
+                        <p>Blog</p>
+                    </div>
+                </a>
+                
+                <a href="/aboutUs.html">
+                    <div>
+                        <i class="far fa-address-card"></i>
+                        <p>About Us</p>
+                    </div>
+                </a>
+                
+                <a href="/contact.html">
+                    <div>
+                        <i class="fas fa-address-book"></i>
+                        <p>Contact</p>
+                    </div>
+                </a>
+                
+                <a href="/quote.html">
+                    <div>
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <p>Get a Quote</p>
+                    </div>
+                </a>
+                
+                <a href="/account.html">
+                    <div>
+                        <i class="fas fa-user"></i>
+                        <p>My profile</p>
+                    </div>
+                </a>
+    
+            </div>
+
+            <script src="/assets/sidenav.js"> </script>
+    
+        </div>
+
+        <nav class="navigationBar">
+            
+            <div class="LogoTag">
+                <img id="logo" src="/images/web-images/web_logo.PNG" alt="logo">
+            </div>
+    
+            <ul class="nav_Links">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="portfolio.html" class="active">Portfolio</a> </li>
+                <li> <a href="shop.html">Shop</a> </li>
+                <li> <a href="blog.html">Blog</a> </li>
+                <li> <a href="aboutUs.html">About US</a> </li>
+                <li> <a href="contact.html">Contact</a> </li>
+                <li> <a href="quote.html">Get a Quote</a> </li>
+                <li> <a href="account.html">My profile</a> </li>
+                
+            </ul>
+    
+            <div class="shop">
+                <a href="#"><img src="/images/icons/shoppingCart.png" alt="shopCart"></a>
+            </div>
+            
+        </nav>
+
+    </div>
+
+    <div class="content">
+        
+        <div class="productDetails">
+
+            <div class="productImages">
+    
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    
+                <div class="slides fade">
+                    <img src="/images/mobile-images/portfolio_31.jpg" alt="#">
+                </div>
+    
+                <div class="slides fade">
+                    <img src="/images/mobile-images/portfolio_31.jpg" alt="#">
+                </div>
+    
+                <div class="slides fade">
+                    <img src="/images/mobile-images/portfolio_31.jpg" alt="#">
+                </div>
+    
+                <div class="slides fade">
+                    <img src="/images/mobile-images/portfolio_31.jpg" alt="#">
+                </div>
+    
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            </div>
+    
+            <div class="indicators" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+    
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+    
+                function plusSlides(n) { 
+                showSlides(slideIndex += n);
+                }
+    
+                function currentSlide(n) {
+                showSlides(slideIndex = n);
+                }
+    
+                function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("slides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+    
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+    
+                slides[slideIndex-1].style.display = "flex";
+                dots[slideIndex-1].className += " active";
+                }
+            </script>
+            
+        </div>
+    
+        <p id="productTitle">Birthday customised gift box</p>
+    
+        <p id="productDescription">Colour: Hot Pink | Layout: Flip Open Size: 8 x 9 x 3 inches | Category: Birthday</p>
+        
+        <div class="contentLinks">
+
+            <a href="portfolio.html">
+                <div id="portfolioLink">Back to Portfolio</div>
+            </a>
+        
+            <a href="shopBox.html">
+                <div id="shopLink">View Shop</div>
+            </a>
+
+        </div>
+    
+        <p id="relatedSearches">Related Searches</p>
+    
+        <div class="collections">
+            
+            <a href="#"> <img src="/images/mobile-images/portfolio_21.jpg" alt="box 1"> </a>
+            <a href="#"> <img src="/images/mobile-images/portfolio_22.jpg" alt="box 2"> </a>
+            <a href="#"> <img src="/images/mobile-images/portfolio_23.jpg" alt="box 3"> </a>
+            <a href="#"> <img src="/images/mobile-images/portfolio_24.jpg" alt="box 4"> </a>
+            <a href="#"> <img src="/images/mobile-images/portfolio_25.jpg" alt="box 5"> </a>
+            <a href="#"> <img src="/images/mobile-images/portfolio_26.jpg" alt="box 6"> </a>
+            <a href="#"> <img src="/images/web-images/web_portfolio_22.jpg" alt="box 7"> </a>
+            <a href="#"> <img src="/images/web-images/web_portfolio_23.jpg" alt="box 8"> </a>
+            <a href="#"> <img src="/images/web-images/web_portfolio_24.jpg" alt="box 9"> </a>
+            <a href="#"> <img src="/images/web-images/web_portfolio_25.jpg" alt="box 10"> </a>
+            <a href="#"> <img src="/images/web-images/web_portfolio_27.jpg" alt="box 11"> </a>
+            <a href="#"> <img src="/images/web-images/web_portfolio_28.jpg" alt="box 12"> </a>
+            <a href="#"> <img src="/images/web-images/web_portfolio_29.jpg" alt="box 13"> </a>
+            <a href="#"> <img src="/images/web-images/web_portfolio_210.jpg" alt="box 14"> </a>
+            
+        </div>
+    </div>
+
+</body>
+</html>

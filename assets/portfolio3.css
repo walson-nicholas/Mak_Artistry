@@ -1,0 +1,246 @@
+.header {
+    background-image: url(/images/mobile-images/portfolio_header_3.jpg);
+    height: 29.6vw;
+}
+
+.productDetails{
+    margin: auto;
+    margin-top: 14.666vw;
+    margin-bottom: 5.773vw;
+}
+
+.productDetails .productImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productDetails .productImages .prev, .next{
+    font-size: 7vw;
+    color: #707070;
+    cursor: pointer;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.productDetails .productImages .next:hover, .prev:hover{
+    background-color: #898787;
+}
+
+.productDetails .productImages .slides{
+    width: 77.6vw;
+    height: 66.133vw;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.productDetails .productImages .slides img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.333vw;
+}
+
+.productDetails .indicators .dot{
+    cursor: pointer;
+    height: 1.706vw;
+    width: 1.706vw;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 5.333vw;
+}
+
+.productDetails .indicators .active, .dot:hover{
+    background-color: rgb(99, 98, 98);
+}
+
+#productTitle{
+    height: 7.466vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    text-align: center;
+    margin-bottom: 5.866vw;
+}
+
+#productDescription{
+    margin: auto;
+    width: 77.6vw;
+    height: 18.4vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    text-align: center;
+    color: #969696;
+    margin-bottom: 10.4vw;
+}
+
+.contentLinks{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23.2vw;
+}
+
+#portfolioLink{
+    width: 40.8vw;
+    height: 8.266vw;
+    border: 0.133vw solid #000000;
+    border-radius: 1.333vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    margin-right: 3.733vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shopLink{
+    width: 33.066vw;
+    height: 8.266vw;
+    background: #9599C6;
+    border-radius: 1.333vw;
+    font-size: 3.733vw;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#relatedSearches{
+    height: 7.733vw;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    margin-bottom: 6.4vw;
+}
+
+.collections{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 3.2vw;
+    row-gap: 3.733vw;
+}
+
+.collections img{
+    width: 42.933vw;
+    height: 41.066vw;
+    border-radius: 1.333vw;
+}
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+        height: 8.125vw;
+    }
+
+    .header::before {
+        background-image: url(/images/web-images/web_portfolio_header_3.jpg);
+        height: 8.125vw;
+    }
+    
+    .productDetails{
+        margin-top: 4.166vw;
+        margin-bottom: 2.777vw;
+    }
+
+    .productDetails .productImages{
+        margin: auto;
+        width: 67.311vw;
+    }
+
+    .productDetails .productImages .prev, .next{
+        font-size: 5vw;
+    }
+
+    .productDetails .productImages .slides{
+        width: 43.611vw;
+        height: 36.736vw;
+    }
+    
+    .productDetails .productImages .slides img{
+        border-radius: 0.347vw;
+    }
+    
+    .productDetails .indicators .dot{
+        height: 0.416vw;
+        width: 0.416vw;
+        background-color: #bbb;
+        margin-top: 2.708vw;
+    }
+
+    #productTitle{
+        font-size: 1.25vw;
+        height: 3.472vw;
+        margin-bottom: 1.111vw;
+    }
+    
+    #productDescription{
+        font-size: 1.25vw;
+        line-height: 2.43vw;
+        width: 38.194vw;
+        height: 7.847vw;
+        color: #707070;
+        padding: 1.4vw;
+        margin-bottom: 3.402vw;
+    }
+    
+    .contentLinks{
+        margin-bottom: 12.361vw;
+    }
+    
+    #portfolioLink{
+        font-size: 1.25vw;
+        line-height: 1.388vw;
+        border: 0.069vw solid #000000;
+        border-radius: 0.347vw;
+        width: 17.5vw;
+        height: 2.916vw;
+        margin-right: 1.25vw;
+    }
+    
+    #shopLink{
+        font-size: 1.25vw;
+        border-radius: 0.347vw;
+        width: 13.194vw;
+        height: 2.916vw;
+    }
+    
+    #relatedSearches{
+        font-size: 1.25vw;
+        line-height: 1.388vw;
+        color: #707070;
+        margin-bottom: 5.138vw;
+    }
+
+    .collections{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        column-gap: 1.597vw;
+        row-gap: 1.944vw;
+    }
+    
+    .collections img{
+        width: 16.527vw;
+        height: 13.958vw;
+        border-radius: 0.347vw;
+    }
+}

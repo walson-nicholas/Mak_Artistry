@@ -1,0 +1,132 @@
+.header {
+    background-image: url(/images/mobile-images/account_header_2.jpg);
+    height: 30.4vw;
+}
+
+.accountMenu .menu span:nth-of-type(1){
+    margin-left: 4.266vw;
+    width: 2.933vw;
+}
+
+.accountMenu .menu span:nth-of-type(2){
+    margin-left: 5.866vw;
+    width: 58.933vw;
+}
+
+.accountMenu .menu span:nth-of-type(3){
+    width: 3.466vw;
+}
+
+#orders{
+    margin: auto;
+    margin-top: 6.933vw;
+    width: 54.666vw;
+    height: 7.2vw;
+    font-weight: bold;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    text-align: center;
+}
+
+#loyalty{
+    margin: auto;
+    margin-top: 4vw;
+    width: 100vw;
+    height: 12.266vw;
+    background: #D8DCF5;
+    padding: 3.2vw 12.8vw 2.933vw 15.2vw;
+    font-weight: bold;
+    font-size: 3.2vw;
+    line-height: 6.666vw;
+}
+
+#loyalty span:nth-of-type(1){
+    width: 30.133vw;
+    height: 6.133vw;
+    margin-right: 28vw;
+}
+
+#loyalty span:nth-of-type(2){
+    width: 13.866vw;
+    height: 6.133vw;
+}
+
+body .accountMenu{
+    position: initial;
+    margin: auto;
+    margin-top: 2.4vw;
+}
+
+body .accountMenu .Menu{
+    padding-left: 8vw;
+}
+
+body .accountMenu .Menu span:nth-of-type(2) {
+    margin-left: 4.266vw;
+}
+
+body form{
+    margin: auto;   
+    margin-top: 8.266vw;
+    width: 77.866vw;
+}
+
+body form span{
+    margin-top: 4vw;
+    width: 62.133vw;
+    height: 6.133vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    display: block;
+}
+
+body form input{
+    width: 77.866vw;
+    height: 7.733vw;
+    border: none;
+    border-bottom: 0.2vw solid #707070;;
+    display: block;
+    padding-left: 2.666vw;
+    font-size: 2.666vw;
+}
+
+body .saveChanges{
+    margin: auto;
+    margin-top: 17.333vw;
+    background: #000000;
+    border-radius: 1.333vw;
+    width: 40.8vw;
+    height: 8.266vw;
+    font-weight: bold;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1.066vw;
+}
+
+body .imageRows{
+    margin: auto;
+    margin-top: 4.8vw;
+    width: 89.066vw;
+    height: 41.066vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 3.2vw;
+    row-gap: 4.8vw;
+}
+
+body .imageRows img{
+    height: 41.066vw;
+    width: 42.933vw;
+    border-radius: 1.333vw;
+}
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+}

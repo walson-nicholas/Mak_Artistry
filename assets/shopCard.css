@@ -1,0 +1,16 @@
+.header {
+    background-image: url(/images/mobile-images/shop_12.jpg);
+}
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    
+    .header::before {
+        background-image: url(/images/mobile-images/shop_12.jpg);
+    }
+}

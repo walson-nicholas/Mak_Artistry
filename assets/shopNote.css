@@ -1,0 +1,17 @@
+.header {
+    background-image: url(/images/mobile-images/shop_note_header.jpg);
+}
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    
+    .header::before {
+        background-image: url(/images/web-images/web_shop_2.jpg);
+    }
+
+}

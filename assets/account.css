@@ -1,0 +1,155 @@
+.header {
+    background-image: url(/images/mobile-images/account_header.jpg);
+}
+
+.content{
+    padding: 0;
+}
+
+#profilePicture{
+    margin-left: 32.8vw;
+    position: relative;
+    width: 34.4vw;
+    height: 34.133vw;
+    border-radius: 50%;
+    top: 68vw;
+}
+
+#profileName{
+    margin-top: 21.6vw;
+    height: 7.2vw;
+    font-size: 3.733vw;
+    text-align: center;
+}
+
+#locationRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.733vw;
+}
+
+#locationIcon{
+    width: 3.2vw;
+    height: 3.2vw;
+    margin-right: 1.333vw;
+}
+
+.accountMenu{
+    margin-top: 13.333vw;
+}
+
+.accountMenu .menu{
+    height: 12.266vw;
+    background: rgba(0, 0, 0, 0.05);
+    margin-bottom: 2.4vw;
+    padding: 0 12.8vw 0 6.133vw;
+    display: flex;
+    align-items: center;
+    font-size: 3.733vw;
+}
+
+.accountMenu .menu img{
+    width: 4vw;
+    height: 4vw;
+}
+
+.accountMenu .menu span:nth-of-type(1){
+    margin-left: 5.866vw;
+    width: 58.933vw;
+}
+
+.accountMenu .menu span:nth-of-type(2){
+    width: 3.466vw;
+}
+
+.footer{
+    background: #000000;
+    padding: 4.266vw 5.333vw;
+    margin-top: 66.666vw;
+}
+
+#first{
+    font-size: 5.333vw;
+    line-height: 6.666vw;
+    color: #FFFFFF;    margin-bottom: 2vw;
+}
+
+#signUp{
+    font-size: 4.266vw;
+    line-height: 6.666vw;
+    color: #707070;
+    margin: 0;
+}
+
+.footer .inputContact{
+    height: 10.4vw;
+    border-radius: 1.333vw;
+    margin-top: 2.666vw;
+    display: flex;
+}
+
+.footer .inputContact input{
+    width: 70%;
+    padding: 0;
+    border: none;
+    height: 100%;
+    padding-left: 3.733vw;
+    border-radius: 1.33vw 0 0 1.33vw;
+    font-size: 4.266vw;
+    color: #A6A6A6;
+}
+
+.footer .inputContact input::placeholder{
+    color: #A6A6A6;
+    font-size: 4.266vw;
+    line-height: 6.666vw;
+}
+
+.footer .inputContact button{
+    width: 30%;
+    height: 100%;
+    background: #FF896F;
+    border-radius: 0px 1.33vw 1.33vw 0px;
+    border: 0;
+    font-size: 4.266vw;
+    color: #FFFFFF;    
+}
+
+.footer .bottomLinks{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4.266vw;
+    line-height: 45px;
+    text-decoration-line: underline;
+    margin-top: 11.466vw;
+    line-height: 12.5vw;
+}
+
+.footer .bottomLinks .group1{
+    width: 38.133vw;
+}
+
+.footer .bottomLinks .group2{
+    width: 42.666vw;
+}
+
+.footer .bottomLinks a{
+    color: #707070;
+}
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    
+    .header::before {
+        background-image: url(/images/mobile-images/account_header.jpg);
+    }
+}

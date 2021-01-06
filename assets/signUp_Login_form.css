@@ -1,0 +1,103 @@
+form{
+    margin: auto;
+    width: 85.066vw;
+    height: 156vw;
+    padding: 4vw 0;
+    border: 0.266vw solid rgba(0, 0, 0, 0.2);
+    border-radius: 1.333vw;
+}
+
+.logoBox{
+    display: inline-block;
+    margin: auto;
+    margin-left: 36.26vw;
+}
+
+.closeForm{
+    float: right;
+    margin-right: 4.8vw;
+    font-size: 5vw;
+    font-weight: lighter;
+    color: rgb(204, 198, 198);
+}
+
+#img1{
+    width: 12.533vw;
+    height: 10.133vw;
+}
+
+#joinComm{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 3.733vw;
+    margin-bottom: 12vw;
+    font-weight: bold;
+    margin-top: 5vw;
+}
+
+.formDetailTitle{
+    font-size: 3.2vw;
+    margin-bottom: 1.6vw;
+    margin-left: 8.266vw;
+}
+
+.formDetailInput{
+    width: 67.733vw;
+    height: 6.933vw;
+    margin-bottom: 4vw;
+    margin-left: 8.266vw;
+    border: 0.266px solid #000000;
+    box-sizing: border-box;
+    border-radius: 1.333vw;
+    padding-left: 2vw;
+}
+
+.signUp{
+    margin: auto;
+    margin-bottom: 12.8vw;
+    width: 33.066vw;
+    height: 8.266vw;
+    background: #D8DCF5;
+    border-radius: 1.333vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.7333VW;
+}
+
+.loginRow{
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+span{
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+}
+
+pre{
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    color: #FF896F;
+}
+
+.googleSign{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20.8vw;
+    margin-top: 7.466vw;
+}
+
+span:nth-of-type(3){
+    margin: auto;
+}
+
+#img2{
+    width: 10vw;
+    height: 10w;
+}

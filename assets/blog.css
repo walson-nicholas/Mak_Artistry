@@ -1,0 +1,57 @@
+.header {
+    background-image: url(/images/mobile-images/blog_header_1.jpg);
+}
+
+.servicesContainer{
+    margin-top: 12vw;
+}
+
+#content1{
+    background-image: url(/images/mobile-images/blog_11.jpg);
+}
+
+#content2{
+    background-image: url(/images/mobile-images/blog_12.jpg);
+}
+
+#content3{
+    background-image: url(/images/mobile-images/blog_13.jpg);
+}
+
+#content4{
+    background-image: url(/images/mobile-images/blog_14.jpg);
+}
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    
+    .header::before {
+        background-image: url(/images/web-images/web_blog_header1.jpg);
+    }
+
+    .servicesContainer{
+        margin-top: 8.68vw;
+    }
+
+    #content1{
+        background-image: url(/images/web-images/web_blog_11.jpg);
+    }
+    
+    #content2{
+        background-image: url(/images/web-images/web_blog_12.jpg);
+    }
+    
+    #content3{
+        background-image: url(/images/web-images/web_blog_13.jpg);
+    }
+    
+    #content4{
+        background-image: url(/images/web-images/web_blog_14.jpg);
+    }
+}
+

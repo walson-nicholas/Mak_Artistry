@@ -1,0 +1,841 @@
+.header {
+    background-image: url(/images/mobile-images/home_header.jpg);
+}
+
+.header #p1{
+    position: absolute;
+    width: 47.466vw;
+    height: 24vw;
+    left: 5.33vw;
+    top: 32.266vw;
+    font-size: 8.533vw;
+    line-height: 13.333vw;
+    color: #FFFFFF;
+}
+
+.header #p2{
+    position: absolute;
+    width: 68.8vw;
+    height: 12.26vw;
+    left: 5.333vw;
+    top: 60vw;
+    font-size: 3.2vw;
+    line-height: 6.666vw;
+    color: #FFFFFF;
+}
+
+.header .outterShopNow{
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 1.333vw;
+    width: 34.933vw;
+    height: 9.333vw;
+    position: relative;
+    top: 80vw;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9vw;
+}
+
+.header .outterShopNow .innerShopNow{
+    background: linear-gradient(0deg, #D8DCF5, #D8DCF5), linear-gradient(0deg, #38386D, #38386D), linear-gradient(0deg, #1C124F, #1C124F), linear-gradient(0deg, #6C3A2F, #6C3A2F), #FF896F;
+    border-radius: 1.333vw;
+    font-size: 3.733vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+
+}
+
+.content{
+    padding: 0;
+}
+
+.benefitsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 14.666vw;
+    width: 62.133vw;
+    margin-bottom: 2.013vw;
+}
+
+.benefits{
+    text-align: center;
+}
+
+.benefits .benIcons{
+    width: 13.33vw;
+    height: 13.33vw;
+    margin-bottom: 3.2vw;
+}
+
+.benefits p{
+    font-size: 3.733vw;
+    font-weight: 300;
+    margin-bottom: 13.066vw;
+    line-height: 6.666vw;
+}
+
+#content1{
+    background-image: url(/images/mobile-images/home_11.jpg);
+}
+
+#content2{
+    background-image: url(/images/mobile-images/home_12.jpg);
+}
+
+#content3{
+    background-image: url(/images/mobile-images/home_13.jpg);
+}
+
+#content4{
+    background-image: url(/images/mobile-images/home_14.jpg);
+}
+
+.peopleSayWeb{
+    display: none;
+}
+
+.peopleSayMobile{
+    text-align: center;
+    margin-top: 64px;
+}
+
+.peopleSayMobile .profilePics{
+    width: 50.666vw;
+    height: 32vw;
+    margin: auto;
+}
+
+.peopleSayMobile .profilePics img{
+    border-radius: 50%;
+    position: relative;
+}
+
+.peopleSayMobile .profilePics #say1{
+    width: 29.066vw;
+    height: 29.066vw;
+    left: 6.5vw;
+    top: 1.46vw;
+}
+
+.peopleSayMobile .profilePics #say2{
+    height: 4vw;
+    width: 4vw;
+    left: -25vw;
+    top: -25vw;
+}
+
+.peopleSayMobile .profilePics #say3{
+    width: 5.6vw;
+    height: 5.6vw;
+    top: -18vw;
+    left: 2vw;
+}
+
+.peopleSayMobile .profilePics #say4{
+    width: 10.133vw;
+    height: 10.133vw;
+    left: -12.1vw;
+    top: -18vw;
+}
+
+.peopleSayMobile .profilePics #say5{
+    width: 5.6vw;
+    height: 5.6vw;
+    left: -15vw;
+    top: -8.5vw;
+}
+
+.peopleSayMobile .profilePics #say6{
+    height: 9.6vw;
+    width: 9.6vw;
+    left: 11vw;
+    top: -9.5vw;
+}
+
+.peopleSayMobile #peopleSayReviews{
+    width: 77.33vw;
+    margin: auto;
+    margin-top: 4.8vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+}
+
+.peopleSayMobile #dots{
+    margin-top: 6.133vw;
+    display: flex;
+    justify-content: center;
+}
+
+.peopleSayMobile #dots .sayDots{
+    margin: 0.604vw;
+    background: #C4C4C4;
+    Width: 1.693vw;
+    Height: 1.693vw;
+    border-radius: 50%;
+}
+
+.whatsNewContainerMobile{
+    margin: auto;
+    margin-top: 27.906vw;
+    margin-bottom: 25.866vw;
+    width: 100vw;
+    height: 114.4vw;
+    background: #000000;
+    padding: 5.6vw 5.33vw 0 5.33vw;
+}
+
+.whatsNewContainerMobile .sectionTitle{
+    color: #FFFFFF;
+}
+
+.whatsNewContainerMobile .sectionLine{
+    background: white;
+}
+
+.whatsNewContainerWeb{
+    display: none;
+}
+
+.whatsNewContainerMobile .quote{
+    width: 89.333vw;
+    height: 58.133vw;
+    background: #FFFFFF;
+    border-radius: 1.333vw;
+    margin: auto;
+    padding: 9.333vw 18.4vw 0 18.4vw;
+}
+
+.whatsNewContainerMobile .quote .innerQuote{
+    width: 100%;
+    height: 39.2vw;
+    background: #AFAFAF;
+    border-radius: 1.333vw;
+    font-weight: bold;
+    font-size: 10.666vw;
+    line-height: 13.333vw;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5.5vw;
+}
+
+.whatsNewContainerMobile .quote .triangle{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-left: 6.666vw solid transparent;
+    border-right: 6.666vw solid transparent;
+    border-bottom: 12vw solid white;
+    top: -4vw;
+}
+
+.whatsNewContainerMobile #p1{
+    margin: auto;
+    margin-top: 6.4vw;
+    width: 89.333vw;
+    height: 13.6vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.whatsNewContainerMobile #learnMore{
+    background: #FFFFFF;
+    border-radius: 1.333vw;
+    margin: auto;
+    height: 10.5vw;
+    width: 34.933vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10.666vw;
+}
+
+.whatsNewContainerMobile #learnMore #innerLearnMore{
+    background: #9599C6;
+    border-radius: 1.333vw;
+    height: 8.266vw;
+    width: 33.066vw;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 3.733vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandsWeb{
+    display: none;
+}
+
+.brandsMobile{
+    margin-bottom: 29.24vw;
+}
+
+/* Slideshow container */
+.brandsMobile .slideshow-container {
+    width: 72.8vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandsMobile .slideshow-container .mySlidesContainer .mySlides {
+    width: 59.2vw;
+    height: 32.533vw;
+    display: flex;
+    margin: auto;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.brandsMobile .slideshow-container .mySlidesContainer .mySlides img {
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.brandsMobile .slideshow-container .prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: 10.666vw;
+    height: 10.666vw;
+    padding: 1.6vw;
+    color: #bbb;
+    font-weight: bold;
+    font-size: 4.8vw;
+    transition: 0.6s ease;
+    border-radius: 0 0.8vw 0.8vw 0;
+    user-select: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* .brandsMobile .slideshow-container .prev:hover, .next:hover {
+    background-color: #898787;
+} */
+
+/* The dots/bullets/indicators */
+.brandsMobile .dot {
+    cursor: pointer;
+    height: 1.706vw;
+    width: 1.706vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 5.066vw;
+}
+
+.brandsMobile .active, .dot:hover {
+    background-color: rgb(99, 98, 98);
+}
+
+.footerWeb{
+    display: none;
+}
+
+.footerMobile{
+    width: 100vw;
+    height: 112vw;
+    background: #000000;
+    padding: 4vw 5.333vw;
+}
+
+.footerMobile#footerP1{
+    color: white;
+    font-size: 4.266vw;
+    line-height: 6.666vw;
+    height: 8vw;
+}
+
+.footerMobile #footerP2{
+    color: #707070;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    font-weight: 300;
+    height: 6.933vw;
+}
+
+.footerMobile div:nth-of-type(1){
+    width: 100%;
+    height: 10.4vw;
+    border-radius: 1.333vw;
+    margin-top: 2.666vw;
+    margin-bottom: 7.2vw;
+    display: flex;
+}
+
+.footerMobile div input{
+    width: 70%;
+    border: none;
+    height: 100%;
+    padding-left: 3.733vw;
+    border-radius: 1.333vw 0 0 1.333vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    align-items: center;
+    color: #A6A6A6;
+}
+
+.footerMobile div input::placeholder{
+    color: #A6A6A6;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    font-family: Comfortaa;
+}
+
+.footerMobile div button{
+    width: 30%;
+    height: 100%;
+    background: #9599C6;
+    border-radius: 0px 1.333vw 1.333vw 0px;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.footerMobile .footerLinks span{
+    height: 9.333vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 12vw;
+    color: #9A9A9A;
+    margin-bottom: 2.666vw;
+}
+
+.footerMobile .footerLinks hr{
+    border: 0.133vw solid #9A9A9A;
+    background: #9A9A9A;
+    margin-bottom: 2.666vw;
+    width: 100%;
+}
+
+.footerMobile .footerLinks .plusSign{
+    float: right;
+}
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    
+    .header::before{
+        background-image: url(/images/web-images/web_home_header.jpg);
+    }
+
+    .header #p1{
+        color: white;
+        width: 18.611vw;
+        height: 8.819vw;
+        font-size: 4.16vw;
+        line-height: 5.208vw;
+        position: absolute;
+        top: 20.625vw;
+        left: 9.4vw;
+    }
+    
+    .header #p2{
+        color: white;
+        width: 42.847vw;
+        height: 2.5vw;
+        font-size: 1.25vw;
+        margin-bottom: 0px;
+        position: absolute;
+        top: 30vw;
+        left: 9.4vw;
+    }
+    
+    .header .outterShopNow{
+        width: 22.708vw;
+        height: 4.236vw;
+        background: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.347vw;
+        position: absolute;
+        top: 41.111vw;
+        left: 8.125vw;
+        padding: 0.45vw;
+    }
+
+    .header .outterShopNow .innerShopNow{
+        background: #9599C6;
+        border-radius: 0.347vw;
+        margin: auto;
+        font-size: 1.25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .benefitsContainer{
+        display: flex;
+        flex-direction: row;
+        margin: 11.041vw auto 10.277vw;
+        justify-content: space-between;
+        width: 86.52vw;
+        margin-bottom: 6.825vw;
+    }
+    
+    .benefits{
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .benefitsContainer .benIcons{
+        width: 5.138vw;
+        height: 4.444vw;
+        font-size: 4vw;
+        margin-bottom: 2.986vw;
+    }
+
+    .benefitsContainer p{
+        font-weight: 300;
+        font-size: 1.25vw;
+        line-height: 2.43vw;
+        margin-bottom: 0;
+    }
+
+    #content1{
+        background-image: url(/images/web-images/web_home_11.jpg);
+    }
+    
+    #content2{
+        background-image: url(/images/web-images/web_home_12.jpg);
+    }
+    
+    #content3{
+        background-image: url(/images/web-images/web_home_13.jpg);
+    }
+    
+    #content4{
+        background-image: url(/images/web-images/web_home_14.jpg);
+    }
+
+    .peopleSayMobile{
+        display: none;
+    }
+
+    .peopleSayWeb{
+        display: block;
+        width: 74.236vw;
+        height: 37.77vw;
+        margin: auto;
+        margin-bottom: 9.861vw;
+    }
+    
+    .peopleSayWeb .row1{
+        height: 11.667vw;
+        margin-top: 1.25vw;
+        display: flex;
+    }
+    
+    .peopleSayWeb .row1 .profilePic{
+        height: 11.667vw;
+        width: 11.667vw;
+    }
+    
+    .peopleSayWeb .row1 .profilePic img{
+        height: 100%;
+        border-radius: 50%;
+        width: 100%;
+    }
+    
+    .peopleSayWeb .sayWriteUp{
+        width: 46.476vw;
+        height: 7.708vw;
+        margin-top: 3.979vw;
+        margin-left: 2.292vw;
+        margin-right: 2.292vw;
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+    
+    .peopleSayWeb .sayWriteUp p:nth-of-type(1){
+        height: 3.7vw;
+        margin-bottom: 2.056vw;
+    }
+    
+    .dot{
+        cursor: pointer;
+        height: 0.416vw;
+        width: 0.416vw;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        margin-top: 8.75vw;
+    }
+
+    .whatsNewContainerMobile{
+        display: none;
+    }
+    
+    .whatsNewContainerWeb{
+        display: block;
+        height: 33.856vw;
+        width: 100%;
+        background: #000000;
+        padding: 3.123vw 0 0 5.434vw;
+    }
+    
+    .whatsNewContainerWeb .whatsNew{
+        width: 83.628vw;
+        height: 27.965vw;
+        display: flex;
+        margin-bottom: 0.922vw;
+    }
+    
+    .whatsNewContainerWeb .whatsNew .quote{
+        width: 26.13vw;
+        height: 27.965vw;
+        margin-right: 3.581vw;
+        border-radius: 0.6944vw;
+        background: white;
+        padding: 3.265vw 2.254vw 5.394vw 2.254vw;
+    }
+    
+    .whatsNewContainerWeb .whatsNew .quote .innerQuote{
+        height: 19.306vw;
+        border-radius: 0.694vw;
+        background: #AFAFAF;
+        padding-top: 4.259vw;
+    }
+    
+    .whatsNewContainerWeb .whatsNew .quote .innerQuote p{
+        margin: auto;
+        width: 13.46vw;
+        height: 10.788vw;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.33vw;
+        line-height: 5.55vw;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    .whatsNewContainerWeb .whatsNew .quote .triangle-up {
+        width: 0px;
+        height: 0px;
+        border-left: 2.88vw solid transparent;
+        border-right: 2.88vw solid transparent;
+        border-bottom: 4.86vw solid white;
+        position: relative;
+        top: -1.39vw;
+        left: 1.82vw;
+    }
+    
+    .whatsNewContainerWeb .whatsNew .whatsNewWriteUp{
+        width: 53.91vw;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        color: #FFFDFD;
+    }
+    
+    .whatsNewContainerWeb .whatsNew .whatsNewWriteUp h2{
+        font-size: 1.667vw;
+        line-height: 2.43vw;
+    }
+    
+    .whatsNewContainerWeb .whatsNew .whatsNewWriteUp hr{
+        width:2.65vw;
+        margin-left: 0.729vw;
+        margin-bottom: 3.69vw;
+        background: white;
+    }
+    
+    .whatsNewContainerWeb .whatsNew .whatsNewWriteUp p{
+        width: 53.917vw;
+        font-size: 1.24vw;
+        line-height: 2.78vw;
+    }
+    
+    .whatsNewContainerWeb .outterLearnMore{
+        margin: auto;
+        background-color: #FFFFFF;
+        width: 13.194vw;
+        padding: 0.347vw 0;
+        border-radius: 0.347vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .whatsNewContainerWeb .innerLearnMore{
+        background-color: #9599C6;
+        height: 2.981vw;
+        border-radius: 0.347vw;
+        font-size: 1.25vw;
+        color: #FFFFFF;
+        width: 12.6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .brandsMobile{
+        display: none;
+    }
+
+    .brandsWeb{
+        display: block;
+        margin-top: 8.819vw;
+    }
+    
+    .brandsWeb .brandsWriteUp{
+        text-align: center;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.666vw;
+        line-height: 2.43vw;
+    }
+    
+    a, a:hover, a:focus, a:active{
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .brandsWeb hr{
+        width: 2.77vw;
+        margin: auto;
+        margin-bottom: 4.166vw;
+        background: #000000;
+    }
+    
+    .brandsWeb .row{
+        width: 89.136vw;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        height: 15vw;
+    
+    }
+    
+    .brandsWeb .row .brandsLogo{
+        margin: 0px;
+        width: 26.614vw;
+        height: 12vw;
+        display: flex;
+    }
+    
+    .brandsWeb .row .brandsLogo img{
+        width: 70%;
+        height: 80%;
+        margin: auto;
+    }    
+    
+    .footerMobile{
+        display: none;
+    }
+
+    .footerWeb{
+        display: block;
+        color: #FFFFFF;
+        background-color: black;
+        padding: 4.236vw 0 0 5.347VW;
+    }
+    
+    .footerWeb h2{
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.388vw;
+        line-height: 2.43vw;
+    }
+    
+    .footerWeb p{
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.972vw;
+        line-height: 2.43vw;
+        color: rgba(255, 255, 255, 0.65);
+        margin-bottom: 1vw;
+    }
+    
+    .footerWeb form{
+        width: 20.833vw;
+        height: 2.77vw;
+        display: flex;
+        margin-bottom: 9.444vw;
+    }
+    
+    .footerWeb form input{
+        width: 13.819vw;
+        border-radius: 0.347vw 0 0 0.347vw;
+        border: none;
+        padding: 0.555vw;
+    }
+    
+    .footerWeb form input::placeholder{
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.833vw;
+        line-height: 2.43vw;
+        color: rgba(112, 112, 112, 0.7);
+    }
+    
+    .footerWeb form button{
+        width: 7.013vw;
+        border: none;
+        border-radius: 0 0.347vw 0.347vw 0;
+        cursor: pointer;
+    }
+    
+    .footerWeb a{
+        color: white;
+        width: 1.388vw;
+        height: 1.388vw;
+        margin: 0.347vw;
+        font-size: 2vw;
+    }
+    
+    .footerWeb a i{
+        font-size: 2vw;
+    }
+}

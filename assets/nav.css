@@ -1,0 +1,117 @@
+#mySidemenu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 1;
+    background-color: black;
+    transition: 0.5s;
+    padding-top: 12vw;
+    padding-left: 5.333vw;
+    display: none;
+    opacity: 85%;
+}
+
+#mySidemenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;
+}
+
+#mySidemenu .close{
+    font-size: 10vw;
+    font-family: none;
+}
+
+#mySidemenu #navShopIcon{
+    width: 6vw;
+    height: 6vw;
+    font-size: 8vw;
+    float: right;
+    font-size: 6vw;
+    margin: 2.5vw 6vw;
+}
+
+#mySidemenu .sm-wrapper{
+    margin-top: 5.333vw;
+}
+
+#mySidemenu .sm-wrapper i{
+    padding-right: 5.333vw;
+}
+
+#mySidemenu .sm-wrapper div{
+    display: flex;
+    align-items: center;
+    height: 15vw;
+}
+
+.navigationBar{
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .navigationBar{
+        margin: 0 7.638vw;
+        padding-top: 1.111vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.972vw;
+        height: 5vw;
+        background: transparent;
+    }
+    
+    /* .LogoTag{
+        width: 20%;
+    } */
+    
+    .LogoTag img{
+        width: 9vw;
+        height: 5vw;
+        position: relative;
+        top: 0.5vw;
+    }
+    
+    .shop{
+        /* width: 20%; */
+        text-align: end;
+    }
+
+    .shop img{   
+        width: 2.083vw;
+        height: 2.083vw;
+    }
+    
+    .nav_Links{
+        display: flex;
+        /* width: 80%; */
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .nav_Links li{
+        margin: 1.111vw;
+        list-style: none;
+    }
+    
+    .nav_Links a{
+        text-align: center;
+        color: white;
+        font-size: 1vw;
+        margin: 0.5vw;
+    }
+    
+    .nav_Links a.active{
+        border-bottom: 2px solid white;
+        transition: 1s;
+    }
+    
+    .nav_Links a:hover{
+        border-bottom: none;
+        background: rgb(181, 172, 175);
+        border-radius: 0.347vw;
+        transition: 1s;
+    }
+}

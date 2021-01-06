@@ -1,0 +1,406 @@
+.header{
+    background-image: url(/images/mobile-images/about_us_header.jpg);
+}
+
+.whatWeDo img{
+    width: 100%;
+    height: 32.533vw;
+    border-radius: 1.333vw;
+    margin-top: 11.2vw;
+}
+
+.imageLabel{
+    position: relative;
+    bottom: 5.333vw;
+    background: #FFFFFF;
+    border-radius: 1.333vw;
+    width: 53.6vw;
+    height: 9.333vw;
+    font-size: 3.733vw;
+    font-weight: 700;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionWriteUp{
+    width: 100%;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    margin-bottom: 14.4vw;
+}
+
+.benefits{
+    width: 100%;
+    background: rgba(196, 196, 196, 0.28);
+    border-radius: 1.333vw;
+    padding: 3.25vw 8vw 4.533vw 3.466vw;
+    margin-bottom: 10.133vw;
+}
+
+.benefits p{
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    text-align: center;
+    margin-bottom: 3.965vw;
+}
+
+.benefits ul{
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    width: 77.866vw;
+    margin-left: 3.2vw;
+}
+
+.story img{
+    width: 100%;
+    height: 79.2vw;
+    border-radius: 1.333vw;
+}
+
+.team{
+    margin-bottom: 14.573vw;
+}
+
+/* Slideshow container */
+
+.team .mySlidesContainer{
+    margin: auto;
+}
+
+.team .mySlidesContainer .mySlides{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+/* Fading animation */
+/* .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+} */
+
+.mySlidesContainer .mySlides img{
+    margin: auto;
+    width: 29.066vw;
+    height: 29.066vw;
+    border-radius: 50%;
+}
+
+.mySlidesContainer .mySlides p:nth-of-type(1){
+    margin-top: 6.933vw;
+    margin-bottom: 0;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    text-align: center;
+}
+
+.mySlidesContainer .mySlides p:nth-of-type(2){
+    margin-top: 3.733vw;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 3.2vw;
+    line-height: 6.666vw;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.team .indicators1{
+    text-align: center;
+    margin-top: 6.666vw;
+}
+
+.team .indicators1 .dot{
+    cursor: pointer;
+    height: 1.693vw;
+    width: 1.693vw;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.team .indicators1 .active{
+    background-color: rgb(99, 98, 98);
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services .mySlides2{
+    height: 67.066vw;
+    width: 100%;
+}
+
+/* Fading animation */
+.services .mySlides2 .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.services .mySlides2 .servicesContainer{
+    height: 62.4vw;
+    width: 100%;
+    background: #000000;
+    border-radius: 1.333vw;
+    margin-top: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    filter: brightness(60%);
+    color: white;
+}
+
+.services .mySlides2 .servicesContainer .servicesContainerRow{
+    display: flex;
+    justify-content: center;
+}
+
+.services .mySlides2 .servicesContainer .servicesContainerRow .servicesBox{
+    font-weight: 300;
+    font-size: 3.2vw;
+    line-height: 6.666vw;
+    color: #FFFFFF;
+    height: 7.733vw;
+    border: 0.133vw solid #FFFFFF;
+    border-radius: 1.333vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#serviceBox1{
+    width: 24vw;
+    margin:12.533vw 1.066vw 0 0;
+}
+
+#serviceBox2{
+    width: 35.733vw;
+    margin: 12.533vw 0 0 0;
+}
+
+#serviceBox3{
+    width: 35.733vw;
+    margin:5.6vw 3.733vw 0 0;
+}
+
+#serviceBox4{
+    width: 24vw;
+    margin:5.6vw 0 0 0;
+}
+
+#serviceBox5{
+    width: 46.133vw;
+    margin:5.6vw 0 0 0;
+}
+
+.services .indicators{
+    text-align: center;
+    margin-top: 7.466vw;
+}
+
+.services .indicators .dot2{
+    cursor: pointer;
+    height: 1.706vw;
+    width: 1.706vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 5.066vw;
+}
+
+.services .indicators .active{
+    background-color: rgb(99, 98, 98);
+}
+
+#QuoteBtn{
+    background: #9599C6;
+    border-radius: 1.333vw;
+    Width: 42.4vw;
+    Height: 8.266vw;
+    font-weight: bold;
+    font-size: 3.2vw;
+    margin: auto;
+    margin-top: 14.573vw;
+    margin-bottom: 14.573vw;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    
+    .header::before {
+        background-image: url(/images/web-images/web_about_header.jpg);
+    }
+
+    .whatWeDo img{
+        height: 36.458vw;
+        border-radius: 0.347vw;
+        margin-top: 4.791vw;
+    }
+    
+    .imageLabel{
+        bottom: 2.11vw;
+        border-radius: 0.347vw;
+        width: 26.111vw;
+        height: 4.236vw;
+        font-size: 1.666vw;
+    }
+    
+    .sectionWriteUp{
+        font-size: 1.25vw;
+        line-height: 2.43vw;
+        margin-bottom: 9.722vw;
+    }
+    
+    .benefits{
+        border-radius: 0.347vw;
+        padding: 2.5vw 0vw 0vw 4.3vw;
+        margin-bottom: 12.291vw;
+    }
+
+
+    .benefits p{
+        font-size: 1.66vw;
+        line-height: 2.43vw;
+        margin-bottom: 4.563vw;
+    }
+    
+    .benefits ul{
+        font-size: 1.25vw;
+        line-height: 2.43vw;
+        width: fit-content;
+        margin-left: 0;
+    }
+    
+    .story img{
+        height: 56.111vw;
+        border-radius: 0.347vw;
+    }
+    
+    .team{
+        margin-bottom: 9.097vw;
+    }
+    
+    .mySlidesContainer .mySlides img{
+        width: 26.736vw;
+        height: 26.736vw;
+    }
+    
+    .mySlidesContainer .mySlides p:nth-of-type(1){
+        margin-top: 2.638vw;
+        font-size: 1.25vw;
+        line-height: 1.388vw;
+    }
+    
+    .mySlidesContainer .mySlides p:nth-of-type(2){
+        margin-top: 1.666vw;
+        font-size: 1.25vw;
+        line-height: 1.388vw;
+        color: #707070;
+    }
+    
+    /* The dots/bullets/indicators */
+    .team .indicators1{
+        margin-top: 3.402vw;
+    }
+
+    .team .indicators1 .dot{
+        height: 0.763vw;
+        width: 0.763vw;
+    }
+    
+    .services .mySlides2{
+        height: 27.638vw;
+    }
+    
+    .services .mySlides2 .servicesContainer{
+        height: 27.638vw;
+        border-radius: 0.347vw;
+        filter: brightness(80%);
+    }
+    
+    .services .mySlides2 .servicesContainer .servicesContainerRow .servicesBox{
+        font-size: 1.25vw;
+        height: 2.916vw;
+        border: 0.069vw solid #FFFFFF;
+        border-radius: 0.347vw;
+    }
+
+    #serviceBox1{
+        width: 13.194vw;
+        margin: 5.694vw 1.458vw 0 0;
+    }
+    
+    #serviceBox2{
+        width: 17.777vw;
+        margin: 5.694vw 0 0 0;
+    }
+    
+    #serviceBox3{
+        width: 17.777vw;
+        margin: 2.291vw 1.527vw 0 0;
+    }
+    
+    #serviceBox4{
+        width: 17.916vw;
+        margin: 2.291vw 0 0 0;
+    }
+    
+    #serviceBox5{
+        width: 26.18vw;
+        margin: 2.291vw 0 0 0;
+    }
+    
+    .services .indicators{
+        margin-top: 6.458vw;
+    }
+    
+    .services .indicators .dot2{
+        height: 0.763vw;
+        width: 0.763vw;
+        margin-top: 5.066vw;
+    }
+    
+    #QuoteBtn{
+        border-radius: 0.347vw;
+        Width: 21.736vw;
+        height: 4.236vw;
+        font-size: 1.666vw;
+        margin-top: 16.527vw;
+        margin-bottom: 16.527vw;
+    }
+    
+}

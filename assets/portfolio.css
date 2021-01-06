@@ -1,0 +1,60 @@
+.header {
+    background-image: url(/images/mobile-images/portfolio_header_1.jpg);
+}
+
+.servicesContainer{
+    margin-top: 12vw;
+}
+
+#content1{
+    background-image: url(/images/mobile-images/portfolio_11.jpg);
+}
+
+#content2{
+    background-image: url(/images/mobile-images/portfolio_12.jpg);
+}
+
+#content3{
+    background-image: url(/images/mobile-images/portfolio_13.jpg);
+}
+
+#content4{
+    background-image: url(/images/mobile-images/portfolio_14.jpg);
+}
+
+#content5{
+    background-image: url(/images/mobile-images/portfolio_15.jpg);
+}
+
+/* WEB VIEW */
+
+@media only screen and (min-width: 600px) {
+
+    .header{
+        background-image: none;
+    }
+    
+    .header::before {
+        background-image: url(/images/web-images/web_portfolio_header_1.jpg);
+    }
+
+    .servicesContainer{
+        margin-top: 8.68vw;
+    }
+
+    #content1{
+        background-image: url(/images/web-images/web_portfolio_11.jpg);
+    }
+    
+    #content2{
+        background-image: url(/images/web-images/web_portfolio_12.jpg);
+    }
+    
+    #content3{
+        background-image: url(/images/web-images/web_portfolio_13.jpg);
+    }
+    
+    #content4{
+        background-image: url(/images/web-images/web_portfolio_14.jpg);
+    }
+}
