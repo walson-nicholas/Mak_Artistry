@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/home_header.jpg);
+    background-image: url(images/mobile-images/home_header.jpg);
 }
 
 .header #p1{
@@ -84,19 +84,19 @@
 }
 
 #content1{
-    background-image: url(/images/mobile-images/home_11.jpg);
+    background-image: url(../images/mobile-images/home_11.jpg);
 }
 
 #content2{
-    background-image: url(/images/mobile-images/home_12.jpg);
+    background-image: url(../images/mobile-images/home_12.jpg);
 }
 
 #content3{
-    background-image: url(/images/mobile-images/home_13.jpg);
+    background-image: url(../images/mobile-images/home_13.jpg);
 }
 
 #content4{
-    background-image: url(/images/mobile-images/home_14.jpg);
+    background-image: url(../images/mobile-images/home_14.jpg);
 }
 
 .peopleSayWeb{
@@ -456,7 +456,7 @@
     }
     
     .header::before{
-        background-image: url(/images/web-images/web_home_header.jpg);
+        background-image: url(../images/web-images/web_home_header.jpg);
     }
 
     .header #p1{
@@ -538,19 +538,19 @@
     }
 
     #content1{
-        background-image: url(/images/web-images/web_home_11.jpg);
+        background-image: url(../images/web-images/web_home_11.jpg);
     }
     
     #content2{
-        background-image: url(/images/web-images/web_home_12.jpg);
+        background-image: url(../images/web-images/web_home_12.jpg);
     }
     
     #content3{
-        background-image: url(/images/web-images/web_home_13.jpg);
+        background-image: url(../images/web-images/web_home_13.jpg);
     }
     
     #content4{
-        background-image: url(/images/web-images/web_home_14.jpg);
+        background-image: url(../images/web-images/web_home_14.jpg);
     }
 
     .peopleSayMobile{

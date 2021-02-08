@@ -1,121 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Makartistry Home</title>
-    <link rel="stylesheet" href="/assets/mA.css">
-    <link rel="stylesheet" href="/assets/nav.css">
-    <link rel="stylesheet" href="/assetS/index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+<?php
+$title = 'Makartistry Home';
+include_once('assets/include/meta.php');
+?>
+<link rel="stylesheet" href="assets/index.css">
 </head>
 
 <body>
     <div class="header">
 
-        <img id="mobileLogo" src="/images/mobile-images/logo.jpg" alt="logo">
-
-        <div id="burger"  onclick="openSM()">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-
-        <div id="mySidemenu" class="sidemenu">
-
-            <a href="javascript::void(0)" class="close" onclick="closeSM()">&times;</a>
-
-            <a href="#"><img id="navShopIcon" src="/images/icons/shoppingCart.png" alt="shopCart"></a>
-    
-            <div class="sm-wrapper">
-                
-                <a href="/index.html">
-                    <div>
-                        <i class="fas fa-home"> </i>
-                        <p>Home</p>
-                    </div>
-                </a>
-                
-                
-                <a href="/portfolio.html">
-                    <div>
-                        <i class="fas fa-briefcase"></i>
-                        <p>Portfolio</p>
-                    </div>
-                </a>
-                
-                <a href="/shop.html">
-                    <div>
-                        <i class="fas fa-shopping-basket"></i>
-                        <p>Shop</p>
-                    </div>
-                </a>
-                
-                <a href="/blog.html">
-                    <div>
-                        <i class="fas fa-blog"></i>
-                        <p>Blog</p>
-                    </div>
-                </a>
-                
-                <a href="/aboutUs.html">
-                    <div>
-                        <i class="far fa-address-card"></i>
-                        <p>About Us</p>
-                    </div>
-                </a>
-                
-                <a href="/contact.html">
-                    <div>
-                        <i class="fas fa-address-book"></i>
-                        <p>Contact</p>
-                    </div>
-                </a>
-                
-                <a href="/quote.html">
-                    <div>
-                        <i class="fas fa-hand-holding-usd"></i>
-                        <p>Get a Quote</p>
-                    </div>
-                </a>
-                
-                <a href="/account.html">
-                    <div>
-                        <i class="fas fa-user"></i>
-                        <p>My profile</p>
-                    </div>
-                </a>
-    
-            </div>
-
-            <script src="/assets/sidenav.js"> </script>
-    
-        </div>
-
-        <nav class="navigationBar">
-            
-            <div class="LogoTag">
-                <img id="logo" src="/images/web-images/web_logo.PNG" alt="logo">
-            </div>
-    
-            <ul class="nav_Links">
-                <li> <a href="index.html" class="active">Home</a> </li>
-                <li> <a href="portfolio.html">Portfolio</a> </li>
-                <li> <a href="shop.html">Shop</a> </li>
-                <li> <a href="blog.html">Blog</a> </li>
-                <li> <a href="aboutUs.html">About US</a> </li>
-                <li> <a href="contact.html">Contact</a> </li>
-                <li> <a href="quote.html">Get a Quote</a> </li>
-                <li> <a href="account.html">My profile</a> </li>
-                
-            </ul>
-    
-            <div class="shop">
-                <a href="#"><img src="/images/icons/shoppingCart.png" alt="shopCart"></a>
-            </div>
-            
-        </nav>
+        <?php include_once('assets/include/header.php'); ?>
 
         <p id="p1"> EVERY DAY ART </p>
 
@@ -134,17 +27,17 @@
         <div class="benefitsContainer">
 
             <div class="benefits">
-                <img class="benIcons" src="/images/icons/custom.png" alt="icon1">
+                <img class="benIcons" src="images/icons/custom.png" alt="icon1">
                 <p>With creativity at our core, why fit in when you can stand out?</p>
             </div>
     
             <div class="benefits">
-                <img class="benIcons" src="/images/icons/quality.png" alt="icon1">
+                <img class="benIcons" src="images/icons/quality.png" alt="icon1">
                 <p>Quality is not an act, it is a habit and we do it well.</p>
             </div>
     
             <div class="benefits">
-                <img class="benIcons" src="/images/icons/custom.png" alt="icon1">
+                <img class="benIcons" src="images/icons/custom.png" alt="icon1">
                 <p>Get it how you want it. Custom made.</p>
             </div>
     
@@ -193,12 +86,12 @@
             <hr class="sectionLine">
     
             <div class="profilePics">
-                <img src="/images/mobile-images/home_say_1.jpg" alt="say1" id="say1">
-                <img src="/images/mobile-images/home_say_2.jpg" alt="say6" id="say2">
-                <img src="/images/mobile-images/home_say_3.jpg" alt="say3" id="say3">
-                <img src="/images/mobile-images/home_say_4.jpg" alt="say2" id="say4">
-                <img src="/images/mobile-images/home_say_5.jpg" alt="say4" id="say5">
-                <img src="/images/mobile-images/home_say_6.jpg" alt="say5" id="say6">
+                <img src="images/mobile-images/home_say_1.jpg" alt="say1" id="say1">
+                <img src="images/mobile-images/home_say_2.jpg" alt="say6" id="say2">
+                <img src="images/mobile-images/home_say_3.jpg" alt="say3" id="say3">
+                <img src="images/mobile-images/home_say_4.jpg" alt="say2" id="say4">
+                <img src="images/mobile-images/home_say_5.jpg" alt="say4" id="say5">
+                <img src="images/mobile-images/home_say_6.jpg" alt="say5" id="say6">
                 
             </div>
 
@@ -228,7 +121,7 @@
             <div class="row1">
         
                 <div class="profilePic">
-                    <img src="/images/web-images/web_home_15.jpg" alt="say1">
+                    <img src="images/web-images/web_home_15.jpg" alt="say1">
                 </div>
             
                 <div class="sayWriteUp">
@@ -246,7 +139,7 @@
                 </div>
               
                 <div class="profilePic">
-                    <img src="/images/web-images/web_home_16.jpg" alt="say2">
+                    <img src="images/web-images/web_home_16.jpg" alt="say2">
                 </div>
         
             </div>
@@ -322,35 +215,35 @@
                 <div class="mySlidesContainer" style="margin: auto;">
 
                     <div class="mySlides fade">
-                        <img src="/images/mobile-images/home_brand_wigs.JPG"      alt="#" style="width: 40%; height: 100%;">
+                        <img src="images/mobile-images/home_brand_wigs.JPG"      alt="#" style="width: 40%; height: 100%;">
                     </div>
         
                     <div class="mySlides fade">
-                        <img src="/images/mobile-images/home_brand_scale.PNG"     alt="#" style="width: 100%; height: 40%;">
+                        <img src="images/mobile-images/home_brand_scale.PNG"     alt="#" style="width: 100%; height: 40%;">
                     </div>
         
                     <div class="mySlides fade">
-                        <img src="/images/mobile-images/home_brand_ibby.PNG"      alt="#" style="width: 100%; height: 70%;">
+                        <img src="images/mobile-images/home_brand_ibby.PNG"      alt="#" style="width: 100%; height: 70%;">
                     </div>
         
                     <div class="mySlides fade">
-                        <img src="/images/mobile-images/home_brand_renee.jpg"     alt="#" style="width: 80%; height: 70%;">
+                        <img src="images/mobile-images/home_brand_renee.jpg"     alt="#" style="width: 80%; height: 70%;">
                     </div>
         
                     <div class="mySlides fade">
-                        <img src="/images/mobile-images/home_brand_bta.PNG"       alt="#" style="width: 100%; height: 70%;">
+                        <img src="images/mobile-images/home_brand_bta.PNG"       alt="#" style="width: 100%; height: 70%;">
                     </div>
         
                     <div class="mySlides fade">
-                        <img src="/images/mobile-images/home_brand_christine.JPG" alt="#" style="width: 80%; height: 80%;">
+                        <img src="images/mobile-images/home_brand_christine.JPG" alt="#" style="width: 80%; height: 80%;">
                     </div>
         
                     <div class="mySlides fade">
-                        <img src="/images/mobile-images/home_brand_clan.PNG"      alt="#" style="width: 60%; height: 40%;">
+                        <img src="images/mobile-images/home_brand_clan.PNG"      alt="#" style="width: 60%; height: 40%;">
                     </div>
         
                     <div class="mySlides fade">
-                        <img src="/images/mobile-images/home_brand_eugene.JPG"    alt="#" style="width: 100%; height: 100%;">
+                        <img src="images/mobile-images/home_brand_eugene.JPG"    alt="#" style="width: 100%; height: 100%;">
                     </div>
 
                 </div>
@@ -454,75 +347,21 @@
             <hr class="sectionLine">
             
             <div class="row">
-                <div class="brandsLogo"> <img src="/images/web-images/web_home_17.JPG" alt="#" style="width: 30%; height: 75%;"> </div>
-                <div class="brandsLogo"> <img class="full" src="/images/web-images/web_home_18.PNG" alt="#" style="height: 50%; width: 70%;"> </div>
-                <div class="brandsLogo"> <img class="full" src="/images/web-images/web_home_19.PNG" alt="#" style="height: 50%; width: 70%;"> </div>
-                <div class="brandsLogo"> <img class="full" src="/images/web-images/web_home_110.jpg" alt="#" style="height: 50%;"> </div>
+                <div class="brandsLogo"> <img src="images/web-images/web_home_17.JPG" alt="#" style="width: 30%; height: 75%;"> </div>
+                <div class="brandsLogo"> <img class="full" src="images/web-images/web_home_18.PNG" alt="#" style="height: 50%; width: 70%;"> </div>
+                <div class="brandsLogo"> <img class="full" src="images/web-images/web_home_19.PNG" alt="#" style="height: 50%; width: 70%;"> </div>
+                <div class="brandsLogo"> <img class="full" src="images/web-images/web_home_110.jpg" alt="#" style="height: 50%;"> </div>
             </div>
     
             <div class="row" style="position: relative; top: -2.368vw;">
-                <div class="brandsLogo"> <img class="full" src="/images/web-images/web_home_111.PNG" alt="#" style="height: 60%; width: 85%;"> </div>
-                <div class="brandsLogo"> <img src="/images/web-images/web_home_112.JPG" alt="#" style="height: 75%; width: 55%;"> </div>
-                <div class="brandsLogo"> <img class="full" src="/images/web-images/web_home_113.PNG" alt="#" style="height: 40%; width: 42%;"> </div>
-                <div class="brandsLogo"> <img src="/images/web-images/web_home_114.JPG" alt="#" style="height: 100%; width: 100%;"> </div>
+                <div class="brandsLogo"> <img class="full" src="images/web-images/web_home_111.PNG" alt="#" style="height: 60%; width: 85%;"> </div>
+                <div class="brandsLogo"> <img src="images/web-images/web_home_112.JPG" alt="#" style="height: 75%; width: 55%;"> </div>
+                <div class="brandsLogo"> <img class="full" src="images/web-images/web_home_113.PNG" alt="#" style="height: 40%; width: 42%;"> </div>
+                <div class="brandsLogo"> <img src="images/web-images/web_home_114.JPG" alt="#" style="height: 100%; width: 100%;"> </div>
             </div>
         </div>
 
-        <div class="footerMobile">
-            <p id="footerP1">Join our Community</p>
-            <p id="footerP2"> Sign up to our newsletter</p>
-    
-            <div>
-                <input type="email" placeholder="Enter Email">
-
-                <button type="button">SIGN UP</button>
-            </div>
-    
-            <div class="footerLinks">
-
-                <a href="#">
-                    <span>About Us</span>
-                    <span class="plusSign">+</span> <br>
-                </a>
-                <hr>
-
-                <a href="#">
-                    <span>Customer Services</span>
-                    <span class="plusSign">+</span> <br>
-                </a>
-                <hr>
-
-                <a href="#">
-                    <span>Support & Resources</span>
-                    <span class="plusSign">+</span> <br>
-                </a>
-                <hr>
-
-                <a href="#">
-                    <span>Partnerships</span>
-                    <span class="plusSign">+</span> <br>
-                </a>
-                <hr>
-
-            </div>
-        </div>
-
-        <div class="footerWeb">
-
-            <h2>Join our community</h2>
-            <p>Sign up to our newsletter</p>
-    
-            <form action="">
-                <input type="email" placeholder="Enter Email">
-                <button type="button" style="background-color: #FF896E; color:white"></button>
-            </form>
-    
-            <a href="#"><i class="fab fa-instagram-square"></i></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter-square"></i></a>
-    
-            <br> <br> <br>
-        </div>
+        <?php include_once('assets/include/footer.php'); ?>
 
     </div>
 
