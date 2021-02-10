@@ -1,121 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Makartistry Blog</title>
-    <link rel="stylesheet" href="/assets/mA.css">
-    <link rel="stylesheet" href="/assets/nav.css">
-    <link rel="stylesheet" href="/assetS/aboutUs.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+<?php
+$title = 'Makartistry About Us'; 
+include_once('assets/include/meta.php'); 
+?>
+<link rel="stylesheet" href="assetS/aboutUs.css">
 </head>
 
 <body>
     <div class="header">
         
-        <img id="mobileLogo" src="/images/mobile-images/logo.jpg" alt="logo">
-
-        <div id="burger"  onclick="openSM()">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-
-        <div id="mySidemenu" class="sidemenu">
-
-            <a href="javascript::void(0)" class="close" onclick="closeSM()">&times;</a>
-
-            <a href="#"><img id="navShopIcon" src="/images/icons/shoppingCart.png" alt="shopCart"></a>
-    
-            <div class="sm-wrapper">
-                
-                <a href="/index.html">
-                    <div>
-                        <i class="fas fa-home"> </i>
-                        <p>Home</p>
-                    </div>
-                </a>
-                
-                
-                <a href="/portfolio.html">
-                    <div>
-                        <i class="fas fa-briefcase"></i>
-                        <p>Portfolio</p>
-                    </div>
-                </a>
-                
-                <a href="/shop.html">
-                    <div>
-                        <i class="fas fa-shopping-basket"></i>
-                        <p>Shop</p>
-                    </div>
-                </a>
-                
-                <a href="/blog.html">
-                    <div>
-                        <i class="fas fa-blog"></i>
-                        <p>Blog</p>
-                    </div>
-                </a>
-                
-                <a href="/aboutUs.html">
-                    <div>
-                        <i class="far fa-address-card"></i>
-                        <p>About Us</p>
-                    </div>
-                </a>
-                
-                <a href="/contact.html">
-                    <div>
-                        <i class="fas fa-address-book"></i>
-                        <p>Contact</p>
-                    </div>
-                </a>
-                
-                <a href="/quote.html">
-                    <div>
-                        <i class="fas fa-hand-holding-usd"></i>
-                        <p>Get a Quote</p>
-                    </div>
-                </a>
-                
-                <a href="/account.html">
-                    <div>
-                        <i class="fas fa-user"></i>
-                        <p>My profile</p>
-                    </div>
-                </a>
-    
-            </div>
-
-            <script src="/assets/sidenav.js"> </script>
-    
-        </div>
-
-        <nav class="navigationBar">
-            
-            <div class="LogoTag">
-                <img id="logo" src="/images/web-images/web_logo.PNG" alt="logo">
-            </div>
-    
-            <ul class="nav_Links">
-                <li> <a href="index.html">Home</a> </li>
-                <li> <a href="portfolio.html">Portfolio</a> </li>
-                <li> <a href="shop.html">Shop</a> </li>
-                <li> <a href="blog.html">Blog</a> </li>
-                <li> <a href="aboutUs.html" class="active">About US</a> </li>
-                <li> <a href="contact.html">Contact</a> </li>
-                <li> <a href="quote.html">Get a Quote</a> </li>
-                <li> <a href="account.html">My profile</a> </li>
-                
-            </ul>
-    
-            <div class="shop">
-                <a href="#"><img src="/images/icons/shoppingCart.png" alt="shopCart"></a>
-            </div>
-            
-        </nav>
+        <?php include_once('assets/include/header.php'); ?>
 
         <hr id="headLine1">
         <div id="headTitleMobile"> ABOUT US </div>
@@ -128,7 +21,7 @@
 
         <div class="whatWeDo">
 
-            <img src="/images/web-images/web_about_11.jpg" alt="img1">
+            <img src="images/web-images/web_about_11.jpg" alt="img1">
         
             <div class="imageLabel">What We Do</div>
     
@@ -155,7 +48,7 @@
 
         <div class="story">
 
-            <img src="/images/mobile-images/about_us_12.png" alt="img2">
+            <img src="images/mobile-images/about_us_12.png" alt="img2">
             <div class="imageLabel">Our Story</div>
 
             <div class="sectionWriteUp">
@@ -178,25 +71,25 @@
             <div class="mySlidesContainer">
 
                 <div class="mySlides fade">
-                    <img src="/images/mobile-images/about_us_13.jpg" alt="#">
+                    <img src="images/mobile-images/about_us_13.jpg" alt="#">
                     <p>Adama Shehu</p>
                     <p>PR Marketing Strategist</p>
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="/images/mobile-images/about_us_13.jpg" alt="#">
+                    <img src="images/mobile-images/about_us_13.jpg" alt="#">
                     <p>Asimiea Nicholas </p>
                     <p>Web Developer</p>
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="/images/mobile-images/about_us_13.jpg" alt="#">
+                    <img src="images/mobile-images/about_us_13.jpg" alt="#">
                     <p>Sope Shehu</p>
                     <p>CEO</p>
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="/images/mobile-images/about_us_13.jpg" alt="#">
+                    <img src="images/mobile-images/about_us_13.jpg" alt="#">
                     <p>Other Person</p>
                     <p>Other Team Member</p>
                 </div>
@@ -276,7 +169,7 @@
             
         </div>
 
-        <a href="/quote.html"><div id="QuoteBtn">GET A QUOTE</div></a>
+        <a href="quote.html"><div id="QuoteBtn">GET A QUOTE</div></a>
 
         <script>
             var slideIndex = 1;
@@ -429,7 +322,10 @@
             }
         </script>
 
+        <?php include_once('assets/include/footer.php'); ?>
+
     </div>
+
 
 </body>
 </html>
