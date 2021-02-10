@@ -1,5 +1,9 @@
 .header {
+<<<<<<< Updated upstream
     background-image: url(/images/mobile-images/home_header.jpg);
+=======
+    background-image: url(../images/mobile-images/home_header.jpg);
+>>>>>>> Stashed changes
 }
 
 .header #p1{

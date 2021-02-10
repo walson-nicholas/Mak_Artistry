@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/account_header.jpg);
+    background-image: url(../images/mobile-images/account_header.jpg);
 }
 
 .content{
@@ -150,6 +150,6 @@
     }
     
     .header::before {
-        background-image: url(/images/mobile-images/account_header.jpg);
+        background-image: url(../images/mobile-images/account_header.jpg);
     }
 }

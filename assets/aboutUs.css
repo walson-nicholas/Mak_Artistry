@@ -1,5 +1,5 @@
 .header{
-    background-image: url(/images/mobile-images/about_us_header.jpg);
+    background-image: url(../images/mobile-images/about_us_header.jpg);
 }
 
 .whatWeDo img{
@@ -262,7 +262,7 @@
     }
     
     .header::before {
-        background-image: url(/images/web-images/web_about_header.jpg);
+        background-image: url(../images/web-images/web_about_header.jpg);
     }
 
     .whatWeDo img{
