@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/shop_note_header.jpg);
+    background-image: url(../images/mobile-images/shop_note_header.jpg);
 }
 
 /* WEB VIEW */
@@ -11,7 +11,7 @@
     }
     
     .header::before {
-        background-image: url(/images/web-images/web_shop_2.jpg);
+        background-image: url(../images/web-images/web_shop_2.jpg);
     }
 
 }

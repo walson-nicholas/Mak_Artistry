@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/portfolio_header_3.jpg);
+    background-image: url(../images/mobile-images/portfolio_header_3.jpg);
     height: 29.6vw;
 }
 
@@ -152,7 +152,7 @@
     }
 
     .header::before {
-        background-image: url(/images/web-images/web_portfolio_header_3.jpg);
+        background-image: url(../images/web-images/web_portfolio_header_3.jpg);
         height: 8.125vw;
     }
     

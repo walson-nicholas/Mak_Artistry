@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/portfolio_header_2.jpg);
+    background-image: url(../images/mobile-images/portfolio_header_2.jpg);
 }
 
 input{
@@ -39,7 +39,7 @@ input{
     }
 
     .header::before {
-        background-image: url(/images/web-images/web_portfolio_header_2.jpg);
+        background-image: url(../images/web-images/web_portfolio_header_2.jpg);
     }
 
     input{

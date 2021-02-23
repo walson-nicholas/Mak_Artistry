@@ -182,6 +182,173 @@ a{
     text-align: center;
 }
 
+.footer1Web{
+    display: none;
+}
+
+.footer1Mobile{
+    /* width: 100vw; */
+    height: 112vw;
+    background: #000000;
+    padding: 4vw 5.333vw;
+}
+
+.footer1Mobile#footer1P1{
+    color: white;
+    font-size: 4.266vw;
+    line-height: 6.666vw;
+    height: 8vw;
+}
+
+.footer1Mobile #footer1P2{
+    color: #707070;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    font-weight: 300;
+    height: 6.933vw;
+}
+
+.footer1Mobile div:nth-of-type(1){
+    width: 100%;
+    height: 10.4vw;
+    border-radius: 1.333vw;
+    margin-top: 2.666vw;
+    margin-bottom: 7.2vw;
+    display: flex;
+}
+
+.footer1Mobile div input{
+    width: 70%;
+    border: none;
+    height: 100%;
+    padding-left: 3.733vw;
+    border-radius: 1.333vw 0 0 1.333vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    align-items: center;
+    color: #A6A6A6;
+}
+
+.footer1Mobile div input::placeholder{
+    color: #A6A6A6;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    font-family: Comfortaa;
+}
+
+.footer1Mobile div button{
+    width: 30%;
+    height: 100%;
+    background: #9599C6;
+    border-radius: 0px 1.333vw 1.333vw 0px;
+    font-size: 3.733vw;
+    line-height: 6.666vw;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.footer1Mobile .footer1Links span{
+    height: 9.333vw;
+    font-weight: 300;
+    font-size: 3.733vw;
+    line-height: 12vw;
+    color: #9A9A9A;
+    margin-bottom: 2.666vw;
+}
+
+.footer1Mobile .footer1Links hr{
+    border: 0.133vw solid #9A9A9A;
+    background: #9A9A9A;
+    margin-bottom: 2.666vw;
+    width: 100%;
+}
+
+.footer1Mobile .footer1Links .plusSign{
+    float: right;
+}
+
+.footer2{
+    background: #000000;
+    padding: 4.266vw 5.333vw;
+    margin-top: 66.666vw;
+}
+
+#first{
+    font-size: 5.333vw;
+    line-height: 6.666vw;
+    color: #FFFFFF;    margin-bottom: 2vw;
+}
+
+#signUp{
+    font-size: 4.266vw;
+    line-height: 6.666vw;
+    color: #707070;
+    margin: 0;
+}
+
+.footer2 .inputContact{
+    height: 10.4vw;
+    border-radius: 1.333vw;
+    margin-top: 2.666vw;
+    display: flex;
+}
+
+.footer2 .inputContact input{
+    width: 70%;
+    padding: 0;
+    border: none;
+    height: 100%;
+    padding-left: 3.733vw;
+    border-radius: 1.33vw 0 0 1.33vw;
+    font-size: 4.266vw;
+    color: #A6A6A6;
+}
+
+.footer2 .inputContact input::placeholder{
+    color: #A6A6A6;
+    font-size: 4.266vw;
+    line-height: 6.666vw;
+}
+
+.footer2 .inputContact button{
+    width: 30%;
+    height: 100%;
+    background: #FF896F;
+    border-radius: 0px 1.33vw 1.33vw 0px;
+    border: 0;
+    font-size: 4.266vw;
+    color: #FFFFFF;    
+}
+
+.footer2 .bottomLinks{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4.266vw;
+    line-height: 45px;
+    text-decoration-line: underline;
+    margin-top: 11.466vw;
+    line-height: 12.5vw;
+}
+
+.footer2 .bottomLinks .group1{
+    width: 38.133vw;
+}
+
+.footer2 .bottomLinks .group2{
+    width: 42.666vw;
+}
+
+.footer2 .bottomLinks a{
+    color: #707070;
+}
+
 @media only screen and (min-width: 600px) {
     .header{
         height: 43.26vw;
@@ -311,5 +478,76 @@ a{
         line-height: 2.43vw;
         top: 1.5vw;
         text-align: center;
+    }
+
+    .footer1Mobile{
+        display: none;
+    }
+
+    .footer1Web{
+        display: block;
+        color: #FFFFFF;
+        background-color: black;
+        padding: 4.236vw 0 0 5.347VW;
+    }
+    
+    .footer1Web h2{
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.388vw;
+        line-height: 2.43vw;
+    }
+    
+    .footer1Web p{
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.972vw;
+        line-height: 2.43vw;
+        color: rgba(255, 255, 255, 0.65);
+        margin-bottom: 1vw;
+    }
+    
+    .footer1Web form{
+        width: 20.833vw;
+        height: 2.77vw;
+        display: flex;
+        margin-bottom: 9.444vw;
+    }
+    
+    .footer1Web form input{
+        width: 13.819vw;
+        border-radius: 0.347vw 0 0 0.347vw;
+        border: none;
+        padding: 0.555vw;
+    }
+    
+    .footer1Web form input::placeholder{
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.833vw;
+        line-height: 2.43vw;
+        color: rgba(112, 112, 112, 0.7);
+    }
+    
+    .footer1Web form button{
+        width: 7.013vw;
+        border: none;
+        border-radius: 0 0.347vw 0.347vw 0;
+        cursor: pointer;
+    }
+    
+    .footer1Web a{
+        color: white;
+        width: 1.388vw;
+        height: 1.388vw;
+        margin: 0.347vw;
+        font-size: 2vw;
+    }
+    
+    .footer1Web a i{
+        font-size: 2vw;
     }
 }

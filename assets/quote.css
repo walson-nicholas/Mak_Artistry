@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/quote_header_1.jpg);
+    background-image: url(../images/mobile-images/quote_header_1.jpg);
 }
 
 #p1{
@@ -40,7 +40,7 @@
     }
     
     .header::before {
-        background-image: url(/images/web-images/web_quote_header.jpg);
+        background-image: url(../images/web-images/web_quote_header.jpg);
     }
 
     #p1{

@@ -173,6 +173,6 @@
     }
     
     .header::before {
-        background-image: url(/images/mobile-images/quote_header_2.jpg);
+        background-image: url(../images/mobile-images/quote_header_2.jpg);
     }
 }

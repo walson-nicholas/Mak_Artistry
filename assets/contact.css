@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/contactUs_header.jpg);
+    background-image: url(../images/mobile-images/contactUs_header.jpg);
 }
 
 #p1{
@@ -29,12 +29,12 @@
     height: 3.733vw;
 }
 
-form{
+#userContactForm{
     width: 100%;
     margin-bottom: 20.266vw;
 }
 
-form input{
+#userContactForm input{
     width: 100%;
     height: 9.333vw;
     border: 0.266vw solid #000000;
@@ -47,13 +47,13 @@ form input{
     display: none;
 }
 
-form #userMessageContainer{
+#userContactForm #userMessageContainer{
     width: 100%;
     border-radius: 1.333vw;
     border: 0.266vw solid black;
 }
 
-form #contactMessage{
+#userContactForm #contactMessage{
     width: 100%;
     height: 53.866vw;
     border-radius: 1.333vw 1.333vw 0 0;
@@ -61,11 +61,11 @@ form #contactMessage{
     padding: 2.933vw;
 }
 
-form #userMessageContainer #contactMessage:hover{
+#userContactForm #userMessageContainer #contactMessage:hover{
     background: #f0eeee;
 }
 
-form #userMessageContainer .attachments{
+#userContactForm #userMessageContainer .attachments{
     margin-top: 4vw;
     margin-bottom: 3.733vw;
     display: flex;
@@ -75,19 +75,19 @@ form #userMessageContainer .attachments{
 
 }
 
-form #userMessageContainer .attachments img:nth-of-type(1){
+#userContactForm #userMessageContainer .attachments img:nth-of-type(1){
     margin-right: 2.4vw;
     width: 6.133vw;
     height: 6.133vw;
     cursor: pointer;
 }
 
-form #userMessageContainer .attachments span{
+#userContactForm #userMessageContainer .attachments span{
     font-size: 3.733vw;
     line-height: 6.666vw;
 }
 
-form #userMessageContainer .attachments img:nth-of-type(2){
+#userContactForm #userMessageContainer .attachments img:nth-of-type(2){
     float: right;
     width: 6.133vw;
     height: 6.133vw;
@@ -95,7 +95,7 @@ form #userMessageContainer .attachments img:nth-of-type(2){
     margin-left: auto;
 }
 
-form button{
+#userContactForm button{
     margin-top: 4vw;
     width: 38.666vw;
     height: 8.266vw;
@@ -137,7 +137,7 @@ form button{
     }
     
     .header::before {
-        background-image: url(/images/web-images/web_contact_header.png);
+        background-image: url(../images/web-images/web_contact_header.png);
     }
 
     #p1{
@@ -173,11 +173,11 @@ form button{
         height: 2vw;
     }
     
-    form{
+    #userContactForm{
         margin-bottom: 10vw;
     }
     
-    form input{
+    #userContactForm input{
         height: 4.305vw;
         border: 0.069vw solid #000000;
         border-radius: 0.347vw;
@@ -201,18 +201,18 @@ form button{
         display: initial;
     }
     
-    form #userMessageContainer{
+    #userContactForm #userMessageContainer{
         border-radius: 0.347vw;
         border: 0.069vw solid black;
     }
     
-    form #contactMessage{
+    #userContactForm #contactMessage{
         height: 35.306vw;
         border-radius: 0.347vw 0.347vw 0 0;
         padding: 1.388vw;
     }
     
-    form #userMessageContainer .attachments{
+    #userContactForm #userMessageContainer .attachments{
         margin-top: 2.5vw;
         margin-bottom: 2.361vw;
         width: 100%;
@@ -221,24 +221,24 @@ form button{
         height: 3.472vw;
     }
     
-    form #userMessageContainer .attachments img:nth-of-type(1){
+    #userContactForm #userMessageContainer .attachments img:nth-of-type(1){
         margin-right: 0.763vw;
         width: 2.916vw;
         height: 2.916vw;
     }
     
-    form #userMessageContainer .attachments span{
+    #userContactForm #userMessageContainer .attachments span{
         top: 0;
         font-size: 1.25vw;
     }
     
-    form #userMessageContainer .attachments img:nth-of-type(2){
+    #userContactForm #userMessageContainer .attachments img:nth-of-type(2){
         width: 3.402vw;
         height: 3.402vw;
         margin-left: auto;
     }
     
-    form button{
+    #userContactForm button{
         margin-top: 4.166vw;
         width: 15.555vw;
         height: 2.986vw;

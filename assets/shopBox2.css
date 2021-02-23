@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/shop_box_1_header.jpg);
+    background-image: url(../images/mobile-images/shop_box_1_header.jpg);
 }
 
 #burger div{
@@ -15,6 +15,6 @@
     }
     
     .header::before {
-        background-image: url(/images/mobile-images/shop_box_1_header.jpg);
+        background-image: url(../images/mobile-images/shop_box_1_header.jpg);
     }
 }

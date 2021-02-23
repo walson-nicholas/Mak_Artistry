@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/quote_note_header.jpg);
+    background-image: url(../images/mobile-images/quote_note_header.jpg);
 }
 
 .confirmQuote{
@@ -111,6 +111,6 @@
     }
     
     .header::before {
-        background-image: url(/images/mobile-images/quote_note_header.jpg);
+        background-image: url(../images/mobile-images/quote_note_header.jpg);
     }
 }

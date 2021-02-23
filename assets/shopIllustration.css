@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/shop_14.jpg);
+    background-image: url(../images/mobile-images/shop_14.jpg);
 }
 
 /* WEB VIEW */
@@ -11,6 +11,6 @@
     }
     
     .header::before {
-        background-image: url(/images/mobile-images/shop_14.jpg);
+        background-image: url(../images/mobile-images/shop_14.jpg);
     }
 }

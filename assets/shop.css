@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/shop_header_1.jpg);
+    background-image: url(../images/mobile-images/shop_header_1.jpg);
 }
 
 .servicesContainer{
@@ -7,23 +7,23 @@
 }
 
 #content1{
-    background-image: url(/images/mobile-images/shop_11.jpg);
+    background-image: url(../images/mobile-images/shop_11.jpg);
 }
 
 #content2{
-    background-image: url(/images/mobile-images/shop_12.jpg);
+    background-image: url(../images/mobile-images/shop_12.jpg);
 }
 
 #content3{
-    background-image: url(/images/mobile-images/shop_13.jpg);
+    background-image: url(../images/mobile-images/shop_13.jpg);
 }
 
 #content4{
-    background-image: url(/images/mobile-images/shop_14.jpg);
+    background-image: url(../images/mobile-images/shop_14.jpg);
 }
 
 #content5{
-    background-image: url(/images/mobile-images/shop_15.jpg);
+    background-image: url(../images/mobile-images/shop_15.jpg);
 }
 
 
@@ -369,7 +369,7 @@
     }
     
     .header::before {
-        background-image: url(/images/web-images/web_shop_header.jpg);
+        background-image: url(../images/web-images/web_shop_header.jpg);
     }
 
     .servicesContainer{
@@ -377,23 +377,23 @@
     }
 
     #content1{
-        background-image: url(/images/web-images/web_shop_2.jpg);
+        background-image: url(../images/web-images/web_shop_2.jpg);
     }
     
     #content2{
-        background-image: url(/images/web-images/web_shop_4.jpg);
+        background-image: url(../images/web-images/web_shop_4.jpg);
     }
     
     #content3{
-        background-image: url(/images/web-images/web_shop_1.jpg);
+        background-image: url(../images/web-images/web_shop_1.jpg);
     }
     
     #content4{
-        background-image: url(/images/web-images/web_shop_3.jpg);
+        background-image: url(../images/web-images/web_shop_3.jpg);
     }
     
     #content5{
-        background-image: url(/images/mobile-images/shop_15.jpg);
+        background-image: url(../images/mobile-images/shop_15.jpg);
     }
 
     .sort{

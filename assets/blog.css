@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/mobile-images/blog_header_1.jpg);
+    background-image: url(../images/mobile-images/blog_header_1.jpg);
 }
 
 .servicesContainer{
@@ -7,19 +7,19 @@
 }
 
 #content1{
-    background-image: url(/images/mobile-images/blog_11.jpg);
+    background-image: url(../images/mobile-images/blog_11.jpg);
 }
 
 #content2{
-    background-image: url(/images/mobile-images/blog_12.jpg);
+    background-image: url(../images/mobile-images/blog_12.jpg);
 }
 
 #content3{
-    background-image: url(/images/mobile-images/blog_13.jpg);
+    background-image: url(../images/mobile-images/blog_13.jpg);
 }
 
 #content4{
-    background-image: url(/images/mobile-images/blog_14.jpg);
+    background-image: url(../images/mobile-images/blog_14.jpg);
 }
 
 /* WEB VIEW */
@@ -31,7 +31,7 @@
     }
     
     .header::before {
-        background-image: url(/images/web-images/web_blog_header1.jpg);
+        background-image: url(../images/web-images/web_blog_header1.jpg);
     }
 
     .servicesContainer{
@@ -39,19 +39,19 @@
     }
 
     #content1{
-        background-image: url(/images/web-images/web_blog_11.jpg);
+        background-image: url(../images/web-images/web_blog_11.jpg);
     }
     
     #content2{
-        background-image: url(/images/web-images/web_blog_12.jpg);
+        background-image: url(../images/web-images/web_blog_12.jpg);
     }
     
     #content3{
-        background-image: url(/images/web-images/web_blog_13.jpg);
+        background-image: url(../images/web-images/web_blog_13.jpg);
     }
     
     #content4{
-        background-image: url(/images/web-images/web_blog_14.jpg);
+        background-image: url(../images/web-images/web_blog_14.jpg);
     }
 }
 

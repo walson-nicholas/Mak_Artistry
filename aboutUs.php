@@ -322,7 +322,7 @@ include_once('assets/include/meta.php');
             }
         </script>
 
-        <?php include_once('assets/include/footer.php'); ?>
+        <?php include_once('assets/include/footer1.php'); ?>
 
     </div>
 
