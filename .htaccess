@@ -1,0 +1,22 @@
+<IfModule mod_headers.c>
+    Header set Connection keep-alive
+</IfModule>
+RewriteEngine On
+#clean url
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+#force slash
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+RewriteRule ^store/([0-9a-zA-Z]+.*)/ store/store.php
+RewriteRule ^index/ index.php
+RewriteRule ^sign-up/ signUp_Login_form.php
+RewriteRule ^portfolio/ portfolio.php
+RewriteRule ^shop/ shop.php
+RewriteRule ^blog/ blog.php
+RewriteRule ^about/ aboutUs.php
+RewriteRule ^contact/ contact.php
+RewriteRule ^quote/ quote.php
+RewriteRule ^account/ account.php

@@ -2,7 +2,7 @@
 $title = 'Makartistry About Us'; 
 include_once('assets/include/meta.php'); 
 ?>
-<link rel="stylesheet" href="assetS/aboutUs.css">
+<link rel="stylesheet" href="assets/aboutUs.css">
 </head>
 
 <body>

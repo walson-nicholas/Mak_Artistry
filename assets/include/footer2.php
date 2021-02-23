@@ -1,4 +1,4 @@
-<div class="footer2">
+<div class="footer2 d-block d-sm-none">
 
     <p id="first">Be the first to know !</p>
 

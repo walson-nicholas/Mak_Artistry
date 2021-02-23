@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97acd963-3a13-48f4-a988-53e360ae7024" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountOrders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountQuotes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/dist/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/utilities.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/include/footer1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/include/scripts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/lib/db_connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/Register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioboxes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quoteConfirm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopBox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopCard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopIllustration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopNote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountFavourites.php" beforeDir="false" afterPath="$PROJECT_DIR$/accountFavourites.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountOrders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountPassword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountQuotes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/account.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/account.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/account2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/account2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/blog2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/blog2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/include/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/include/footer2.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/include/footer2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/include/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/include/meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mA.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mA.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/portfolio2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/portfolio2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/portfolio3.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/portfolio3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/quote.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/quote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/quoteConfirm.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/quoteConfirm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/quoteGenerate.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/quoteGenerate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shopBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shopBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shopBox2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shopBox2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shopCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shopCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shopCard2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shopCard2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shopIllustration.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shopIllustration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shopIllustration2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shopIllustration2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shopNote.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shopNote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shopNote2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shopNote2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/signUp_Login_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/signUp_Login_form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogArtOfBoxes.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogArtOfBoxes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolioDetails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolioboxes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quoteBoxes.html" beforeDir="false" afterPath="$PROJECT_DIR$/quoteBoxes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quoteCards.html" beforeDir="false" afterPath="$PROJECT_DIR$/quoteCards.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quoteConfirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quoteDigitalArt.html" beforeDir="false" afterPath="$PROJECT_DIR$/quoteDigitalArt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quoteNotepad.html" beforeDir="false" afterPath="$PROJECT_DIR$/quoteNotepad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopBox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopBox2.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopBox2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopCard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopCard2.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopCard2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopIllustration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopIllustration2.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopIllustration2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopNote.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopNote2.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopNote2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUp_Login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/signUp_Login_form.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oWrrMhwRqvi3EGHiXsYMvvB5R8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mA\admin" />
+      <recent name="C:\xampp\htdocs\mA\assets\js" />
+      <recent name="C:\xampp\htdocs\mA" />
+      <recent name="C:\xampp\htdocs\mA\assets\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97acd963-3a13-48f4-a988-53e360ae7024" name="Default Changelist" comment="" />
+      <created>1613413387301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613413387301</updated>
+      <workItem from="1613413390071" duration="9734000" />
+      <workItem from="1613470224971" duration="11347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="80" y="202" key="#SQL_Dialects" timestamp="1613475045301">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="80" y="202" key="#SQL_Dialects/0.0.1280.720@0.0.1280.720" timestamp="1613475045301" />
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613474784487">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1613474784487" />
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1613473237051">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1613473237051" />
+    <state x="467" y="84" key="NewPhpClassDialog" timestamp="1613473129428">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="467" y="84" key="NewPhpClassDialog/0.0.1280.720@0.0.1280.720" timestamp="1613473129428" />
+    <state x="477" y="284" key="NewPhpFileDialog" timestamp="1613473098662">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="477" y="284" key="NewPhpFileDialog/0.0.1280.720@0.0.1280.720" timestamp="1613473098662" />
+    <state x="142" y="6" key="SettingsEditor" timestamp="1613467622565">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1613467622565" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1613418609265">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1613418609265" />
+  </component>
+</project>

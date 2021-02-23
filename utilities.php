@@ -9,7 +9,7 @@ session_start();
 //     header('location: logout.php');
 // }
 //error_reporting(1);
-include_once('assets/lib/dbcxn.inc.php');
+include_once('assets/lib/db_connection.php');
 // Include all classes in the classes folder
 //var_dump(glob("class/*.php"));
 
@@ -35,7 +35,7 @@ $data   = [$params];
 //file_put_contents("kkk.txt",json_encode($_FILES)." -- ".json_encode($_REQUEST));
 
 //////////////////////////////
-/// callling the method of the class
+/// calling the method of the class
 $foo = new $operation[0];
 print_r(call_user_func_array(array($foo, trim($operation[1])), $data));
 //var_dump($foo);

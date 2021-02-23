@@ -1,45 +1,58 @@
 <?php
-    $title = 'Makartistry Login';
-    include_once('assets/include/meta.php'); 
+$title = 'Makartistry Account';
+include_once('assets/include/meta.php');
 ?>
-<link rel="stylesheet" href="assetS/signUp_Login_form.css">
+<link rel="stylesheet" href="assets/account.css">
+<!--<link rel="stylesheet" href="assets/signUp_Login_form.css">-->
+
 </head>
 
 <body>
+<div class="header">
 
-    <form action="#">
+    <?php include_once('assets/include/header.php'); ?>
 
-        <div class="logoBox">
-            <img src="images/icons/mAlogo.PNG" alt="logo" id="img1">
-        </div>
+</div>
 
-        <div class="closeForm">&#x2715;</div>
+<div class="content">
 
-        <div id="joinComm">JOIN OUR COMMUNITY</div>
-        
-        <p class="formDetailTitle">Name</p>
-        <input type="text" class="formDetailInput">
-
-        <p class="formDetailTitle">Email</p>
-        <input type="text" class="formDetailInput">
-
-        <p class="formDetailTitle">Password</p>
-        <input type="password" class="formDetailInput" style="margin-bottom: 9.6vw;">
-
-        <div class="signUp">SIGN UP</div>
-
-
-        <div class="loginRow">
-            <span>You already have an account ?  </span>
-            <pre>   LOGIN</pre>
-        </div>
-
-        <div class="googleSign">
-            <span>Login  with your  </span>
-            <img src="images/mobile-images/Google Favicon 2015 vector (_EPS + .SVG) free download" alt="googleIcon" id="img2">
-        </div>
-
-    </form>
-
+    <div class="container mt-5">
+        <form id="signUpForm" method="post" onsubmit="return false">
+            <input type="hidden" name="op" id="op" class="form-control" value="Auth.createAccount">
+            <div id="responseMessage"></div>
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password: </label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" required>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="signUpButton" class="btn btn-primary mb-3">
+                Sign Up
+                <i class="fas fa-user-plus"></i>
+            </button>
+        </form>
+    </div>
+    <?php include_once('assets/include/footer2.php'); ?>
+</div>
+<?php include_once 'assets/include/scripts.php'; ?>
 </body>
-</html>

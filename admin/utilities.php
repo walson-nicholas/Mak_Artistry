@@ -9,11 +9,11 @@ session_start();
 //     header('location: logout.php');
 // }
 //error_reporting(1);
-include_once('assets/lib/db_connection.php');
+include_once('../assets/lib/db_connection.php');
 // Include all classes in the classes folder
 //var_dump(glob("class/*.php"));
 
-foreach (glob("class/*.php") as $filename) {
+foreach (glob("../class/*.php") as $filename) {
 	include_once($filename);
 }
 // User.login

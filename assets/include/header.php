@@ -76,21 +76,21 @@
 
         </div>
 
-        <nav class="navigationBar">
+        <nav id="nav" class="navigationBar">
             
             <div class="LogoTag">
                 <img id="logo" src="images/web-images/web_logo.PNG" alt="logo">
             </div>
 
             <ul class="nav_Links">
-                <li> <a href="index.php">Home</a> </li>
-                <li> <a href="portfolio.php">Portfolio</a> </li>
-                <li> <a href="shop.php">Shop</a> </li>
-                <li> <a href="blog.php">Blog</a> </li>
-                <li> <a href="aboutUs.php">About US</a> </li>
-                <li> <a href="contact.php">Contact</a> </li>
-                <li> <a href="quote.php">Get a Quote</a> </li>
-                <li> <a href="account.php">My profile</a> </li>
+                <li> <a href="index/" id="home">Home</a> </li>
+                <li> <a href="portfolio/">Portfolio</a> </li>
+                <li> <a href="shop/">Shop</a> </li>
+                <li> <a href="blog/">Blog</a> </li>
+                <li> <a href="about/">About US</a> </li>
+                <li> <a href="contact/">Contact</a> </li>
+                <li> <a href="quote/">Get a Quote</a> </li>
+                <li> <a href="sign-up/">My profile</a> </li>
                 
             </ul>
 
@@ -99,3 +99,23 @@
             </div>
             
         </nav>
+
+        <script>
+            (function() {
+                const nav = document.getElementById('nav');
+                const anchor = nav.getElementsByTagName('a');
+                const current = window.location.pathname.split('/')[2];
+                for (let i = 0; i < anchor.length; i++) {
+                    if (current === ''){
+                        // console.log("here");
+                        const home = document.getElementById("home");
+                        home.classList.add("active");
+                    } else if(anchor[i].href.includes(current)) {
+                        anchor[i].classList.add('active');
+                    } else {
+                        anchor[i].classList.remove('active');
+                    }
+                }
+            })();
+
+        </script>
